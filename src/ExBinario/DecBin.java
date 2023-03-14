@@ -16,9 +16,9 @@ public class DecBin {
 		input.close();
 
 		while (decimal != 0) {
-			aux = decimal % 2;
-			decimal = decimal / 2;
+			aux = decimal % 2;			
 			pilha.push(aux);
+			decimal = decimal / 2;
 		}
 
 		pilha.show();
